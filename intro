@@ -1,0 +1,4 @@
+name='sanjana'
+skills='excel'
+details=name+' '+skills
+print(details) // sanajana excel
