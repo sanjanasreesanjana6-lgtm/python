@@ -1,3 +1,4 @@
+string concatenation 
 name='sanjana'
 skills='excel'
 details=name+' '+skills
