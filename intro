@@ -3,3 +3,46 @@ name='sanjana'
 skills='excel'
 details=name+' '+skills
 print(details) // sanajana excel
+
+
+name='priya'
+age='53'
+details=name+' '+str(age)
+print(details)//priya 53
+
+**augmented assignment operator 
+name='sanjana'
+skills='excel'
+name_and_skills=name
+name_and_skills +=skills
+print(name_and_skills)//sanjanaexcel
+
+**string interpolation
+name='sanjana'
+skills='excel,python'
+details=f'my name is {name} skills i have are {skills}'
+print(details)//my name is sanjana skills i have are excel,python
+
+
+**string slicing
+name='sanjana sree'
+print(name[0:12])//sanjana sree
+
+name='sanjana sree'
+print(name[0:12:2])//snaase
+
+name='sanjana sree'
+print(name::-1])//eers anajnas
+
+
+
+
+
+
+
+
+
+
+
+
+
