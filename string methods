@@ -1,0 +1,103 @@
+**upper()
+name='sanjana'
+convert=name.upper()
+print(convert)//SANJANA 
+
+**lower()
+name='sanjana'
+convert=name.lower()
+print(convert)//sanjana
+
+
+**strip()
+name= '  sanjana '
+convert=name.strip()
+print(convert)//sanjana
+
+name= '**sanjana!!'
+convert=name.strip("*!")
+print(convert)//sanjana
+
+**replace(old,new)
+name= 'sanjana'
+convert=name.replace('sanjana','sanjana_sree')
+print(convert)//sanjana_sree
+
+**split
+name= 'sanjana sree'
+convert=name.split()
+print(convert)//['sanjana', 'sree']
+
+**join
+name= ['sanjana','sree']
+convert=''.join(name)
+print(convert)//sanjanasree
+
+**startswith
+name='sanjana sree'
+convert=name.startswith('sanjana')
+print(convert)//True
+
+name='sanjana sree'
+convert=name.startswith('sree')
+print(convert)//False
+
+**endswith
+name='sanjana sree'
+convert=name.endswith('sanjana')
+print(convert)//False
+
+name='sanjana sree'
+convert=name.endswith('sree')
+print(convert)//True
+
+**find
+name='sanjana sree is studying '
+convert=name.find('is')
+print(convert)//13
+
+**count
+name='sanjana sree is studying '
+convert=name.count('s')
+print(convert)//4
+
+**capitalize
+name='sanjana sree is studying '
+convert=name.capitalize()
+print(convert)//Sanjana sree is studying
+
+**isupper()
+name='sanjana sree is studying '
+convert=name.isupper()
+print(convert)//False
+
+name='SANJANA SREE IS STUDYING '
+convert=name.isupper()
+print(convert)//True
+
+
+**islower()
+name='Sanjana sree is studying '
+convert=name.islower()
+print(convert)//False
+
+name='sanjana sree is studying '
+convert=name.isupper()
+print(convert)//True
+
+**title()
+name='sanjana sree is studying '
+convert=name.title()
+print(convert)//Sanjana Sree Is Studying 
+
+
+
+
+
+
+
+
+
+
+
+ 
