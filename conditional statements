@@ -1,0 +1,49 @@
+if 58<93:
+    print("True")
+else:
+    print("False")//True
+
+is_eligible=True
+salary=78000
+if is_eligible and salary<50000:
+    print("you're selected")
+else:
+    print("you're not selected ")//you're not selected 
+
+is_eligible=True
+salary=78000
+if is_eligible or salary<50000:
+    print("you're selected")
+else:
+    print("you're not selected ")//you're selected 
+
+is_eligible=False
+salary=78000
+if is_eligible or salary<50000:
+    print("you're selected")
+else:
+    print("you're not selected ")//you're not selected 
+
+
+is_eligible=False
+salary=78000
+if is_eligible and salary<50000:
+    print("you're selected")
+else:
+    print("you're not selected ")//you're not selected 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
