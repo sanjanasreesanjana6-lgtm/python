@@ -77,6 +77,56 @@ local scope
 enclosed scope
 
 
+**GLOBAL SCOPE**
+
+
+var="hi there"
+def intro():
+    print(var)
+intro() 
+print(var)
+-----
+hi there
+hi there
+
+var="hi there"
+def intro():
+   global var2 
+   var2="how are you?"
+   print(var)
+   print(var2)
+intro() 
+print(var)
+print(var2)
+------
+hi there
+how are you?
+hi there
+how are you?
+//we can assing the global keyword any variable
+
+
+var="hi there"
+def intro():
+   global var2
+   global var
+   var2="how are you?"
+   var="hi"
+   print(var)
+   print(var2)
+intro() 
+print(var)
+print(var2)
+-----
+hi
+how are you?
+hi
+how are you?
+//global is also used for the modification as the hi there is changed to hi
+
+
+
+**BUILT-IN SCOPE**
 
 
 
