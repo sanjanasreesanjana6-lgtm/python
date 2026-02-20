@@ -6,7 +6,9 @@
 def sanjana():
    my_var="local scope"
    print(my_var)
-sanjana()//local scope 
+sanjana()
+-----
+//local scope 
 
 def sanjana():
    my_var="local scope"
@@ -14,5 +16,86 @@ def sanjana():
 sanjana()   
 print(my_var)
 ------
-local scope 
+//local scope 
 error//throws error because my_var variable is declared locally it can't be accessed explicitly 
+
+
+**ENCLOSED SCOPE**
+
+
+def sanjana():
+   my_var="local scope"
+   print(my_var)
+   def study():
+        my_var2="enclosed scope"
+        print(my_var2)
+sanjana()
+------
+//local scope//because we called only sanjana function not the study function
+
+
+def sanjana():
+   my_var="local scope"
+  
+   def study():
+        print(my_var)
+   study()
+
+sanjana()
+------
+//local scope//this is how we can access the inner & outer functions
+
+def sanjana():
+   my_var="local scope"
+   print(my_var2)
+  
+   def study():
+       my_var2="enclosed scope"
+        print(my_var)
+   study()
+
+sanjana()
+------
+//this throws an because we are trying to print the my_var2 in sanjana function without the variable declaration,which is declared in the study function
+//above code is also same type but it is declared the variable first before the print statement
+//to overcome this we have do the following steps
+
+
+def sanjana():
+   my_var="local scope"
+   my_var2=""//we have create a empty variable 
+  
+   def study():
+       nonlocal my_var2//nonlocal is used allow the modification 
+       my_var2="enclosed scope"
+       print(my_var)
+   study()
+   print(my_var2)//prints the value of my_var2
+sanjana()
+------
+local scope
+enclosed scope
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
