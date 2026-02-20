@@ -1,0 +1,18 @@
+**SCOPE IS USED TO KNOW HOW WE CAN ACCESS THE VARIABLES IN FUNCTIONS 
+**THIS CAN BE DONE BY USING THE "LEGB"RULE
+
+**LOCAL SCOPE**
+
+def sanjana():
+   my_var="local scope"
+   print(my_var)
+sanjana()//local scope 
+
+def sanjana():
+   my_var="local scope"
+   print(my_var)
+sanjana()   
+print(my_var)
+------
+local scope 
+error//throws error because my_var variable is declared locally it can't be accessed explicitly 
