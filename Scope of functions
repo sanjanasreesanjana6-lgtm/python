@@ -129,7 +129,13 @@ how are you?
 **BUILT-IN SCOPE**
 
 
-
+print(str(45)) 
+print(type(3.14)) 
+print(isinstance(3, str)) 
+------
+45
+float
+False
 
 
 
