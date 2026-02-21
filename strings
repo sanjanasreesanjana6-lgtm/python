@@ -35,7 +35,11 @@ name='sanjana sree'
 print(name::-1])//eers anajnas
 
 
-
+**str.maketrans**
+sanjana='abcde'
+sree='ABCDE'
+name=str.maketrans(sanjana,sree)
+print(name)//{97: 65, 98: 66, 99: 67, 100: 68, 101: 69}
 
 
 
