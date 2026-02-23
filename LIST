@@ -1,0 +1,12 @@
+list=['sanjana',5.5,'data analyst']
+name,height,job =list
+print('NAME:',name)
+print('HEIGHT:',height)
+print('JOB:',job)
+------------
+NAME: sanjana
+HEIGHT: 5.5
+JOB: data analyst
+
+
+
