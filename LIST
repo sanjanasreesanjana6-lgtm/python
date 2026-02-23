@@ -36,7 +36,15 @@ IndexError: list assignment index out of range
 list out of range
 
 
+list=['sanjana',5.5,'data analyst']
+print(list[:2]
+--------------------
+['sanjana',5.5]
 
+list=['sanjana',5.5,['data analyst','ai','data scientist']]
+print(list[2][1])
+-----------------------
+ai
 
 
 
