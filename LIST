@@ -9,9 +9,32 @@ HEIGHT: 5.5
 JOB: data analyst
 
 TO UDATAE A LIST
+
+
+
 list=['sanjana',5.5,'data analyst']
 list[0]='sanjana_sree'
 print(list)
 --------------
 ['sanjana_sree', 5.5, 'data analyst']
+
+list=['sanjana',5.5,'data analyst']
+list[7]='sanjana_sree'
+print(list)
+----------------
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 2, in <module>
+IndexError: list assignment index out of range
+list out of range
+
+
+
+
+
+
+
+
+
+
 
