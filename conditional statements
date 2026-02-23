@@ -1,28 +1,36 @@
 if 58<93:
     print("True")
 else:
-    print("False")//True
+    print("False")
+------------
+True
 
 is_eligible=True
 salary=78000
 if is_eligible and salary<50000:
     print("you're selected")
 else:
-    print("you're not selected ")//you're not selected 
+    print("you're not selected ")
+----------------
+you're not selected 
 
 is_eligible=True
 salary=78000
 if is_eligible or salary<50000:
     print("you're selected")
 else:
-    print("you're not selected ")//you're selected 
+    print("you're not selected ")
+---------------------
+you're selected 
 
 is_eligible=False
 salary=78000
 if is_eligible or salary<50000:
     print("you're selected")
 else:
-    print("you're not selected ")//you're not selected 
+    print("you're not selected ")
+--------------------
+you're not selected 
 
 
 is_eligible=False
@@ -30,7 +38,9 @@ salary=78000
 if is_eligible and salary<50000:
     print("you're selected")
 else:
-    print("you're not selected ")//you're not selected 
+    print("you're not selected ")
+-----------------------
+you're not selected 
 
 ////Built a Travel Weather Planner////
 
@@ -57,5 +67,6 @@ else:
        print('True')
     else:  
        print('False')
-
-///True
+----------------------
+----------------------
+True
