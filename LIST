@@ -8,9 +8,16 @@ NAME: sanjana
 HEIGHT: 5.5
 JOB: data analyst
 
+list=['sanjana',5.5,'data analyst']
+name,*rest =list
+print('name:',name)
+print('details:',rest)
+----------------------------
+name: sanjana
+details: [5.5, 'data analyst']
+
+
 TO UDATAE A LIST
-
-
 
 list=['sanjana',5.5,'data analyst']
 list[0]='sanjana_sree'
