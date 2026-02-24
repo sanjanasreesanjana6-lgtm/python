@@ -61,6 +61,50 @@ print(jobs)
 ['data analyst', 'data science', 23, 67, ['visualization', 'power_bi', 567]]
 
 
+jobs=['data analyst','data science',23,67]
+jobs.extend (['visualization','power_bi',567])
+print(jobs)
+------------------------
+['data analyst', 'data science', 23, 67, 'visualization', 'power_bi', 567]
+
+
+
+jobs=['data analyst','data science',23,67]
+jobs.insert (3,'visualization')//3 indicates the index where do we need to insert
+print(jobs)
+----------------------
+['data analyst', 'data science', 23, 'visualization', 67]
+
+
+jobs=['data analyst','data science',23,67]
+jobs.remove('data science')
+print(jobs)
+---------------------
+['data analyst', 23, 67]
+
+
+jobs=['data analyst','data science',23,67]
+jobs.pop()
+print(jobs)
+--------------------
+['data analyst', 'data science', 23]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
