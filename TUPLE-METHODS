@@ -10,5 +10,43 @@ print(90 in developer)
 --------------------
 True
 
+****indexing with slicing****
+jobs=['data analyst',95,'data science',23,67]
+print(jobs.index('data science',1))
+-------------
+2//starts at 1 index and searches for data science 
+
+
+jobs=['data analyst',95,'data science',23,67,'data science']
+print(jobs.index('data science',3))
+---------------
+5//since the indexing starts at 3 
+
+
+jobs=['data analyst',95,'data science',23,67,'data science']
+print(jobs.index('data science',1,5))
+--------------------
+2//start stop both are mentioned 
+
+
+jobs=['data analyst','powerbi','data science','excel','data science']
+print(sorted(jobs,key=len))
+----------------
+['excel', 'powerbi', 'data analyst', 'data science', 'data science']
+//sorts acc to the length 
+
+jobs=['data analyst','powerbi','data science','excel','data science']
+print(sorted(jobs,reverse=True))
+----------------
+['powerbi', 'excel', 'data science', 'data science', 'data analyst']
+//reverse in the alphabetical order 
+
+
+
+
+
+
+
+
 
 
