@@ -6,7 +6,7 @@ print(list(developer))
 developer = ['sanjana_sree',90,'mn',67]
 print(90 in developer)
 -------------------------
-TRue
+True
 
 
 list=['sanjana',5.5,'data analyst']
