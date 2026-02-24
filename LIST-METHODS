@@ -116,7 +116,7 @@ print(jobs)
 
 
 jobs=['data analyst','data science',23,67]
-jprint(jobs.index('data science'))
+print(jobs.index('data science'))
 -----------------------
 1
 
