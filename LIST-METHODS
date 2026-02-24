@@ -3,6 +3,11 @@ print(list(developer))
 --------------------
 ['s', 'a', 'n', 'j', 'a', 'n', 'a', '_', 's', 'r', 'e', 'e']
 
+developer = ['sanjana_sree',90,'mn',67]
+print(90 in developer)
+-------------------------
+TRue
+
 
 list=['sanjana',5.5,'data analyst']
 name,height,job =list
