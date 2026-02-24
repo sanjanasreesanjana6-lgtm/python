@@ -89,12 +89,25 @@ print(jobs)
 --------------------
 ['data analyst', 'data science', 23]
 
+jobs=[90,67,4,9,23,67]
+jobs.sort()
+print(jobs)
+-------------------
+[4, 9, 23, 67, 67, 90]
+
+
+jobs=[90,67,4,9,23,67]
+jobs.reverse()
+print(jobs)
+-----------------
+[67, 23, 9, 4, 67, 90]
 
 
 
-
-
-
+jobs=['data analyst','data science',23,67]
+jobs.index('data science')
+-----------------------
+1
 
 
 
