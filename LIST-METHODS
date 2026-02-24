@@ -47,6 +47,28 @@ print(list[2][1])
 ai
 
 
+jobs=['data analyst','data science',23,67]
+jobs.append ('visualization')
+print(jobs)
+---------------
+['data analyst', 'data science', 23, 67, 'visualization']
+
+
+jobs=['data analyst','data science',23,67]
+jobs.append (['visualization','power_bi',567])
+print(jobs)
+---------------------
+['data analyst', 'data science', 23, 67, ['visualization', 'power_bi', 567]]
+
+
+
+
+
+
+
+
+
+
 
 
 
