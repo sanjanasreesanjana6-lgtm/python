@@ -1,0 +1,14 @@
+developer = ('sanjana_sree')
+print(tuple(developer))
+---------------------------
+('s', 'a', 'n', 'j', 'a', 'n', 'a', '_', 's', 'r', 'e', 'e')
+
+
+
+developer = ('sanjana_sree',90,'mn',67)
+print(90 in developer)
+--------------------
+True
+
+
+
