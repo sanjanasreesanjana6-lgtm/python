@@ -128,7 +128,21 @@ teju
 riya
 
 
-
+names=['sanjana','teju','lynn','priya','riya','sky']
+for name in names:
+    for letter in name:
+        if letter.lower() in 'aeiou':
+            print(f"'{name}' is having the '{letter}' vowel\n")
+            break
+    else:
+     print(f"'{name}' not having the vowel\n")
+-----------------------
+'sanjana' is having the 'a' vowel
+'teju' is having the 'e' vowel
+'lynn' not having the vowel
+'priya' is having the 'i' vowel
+'riya' is having the 'i' vowel
+'sky' not having the vowel
 
 
 
