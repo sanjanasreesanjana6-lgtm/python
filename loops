@@ -108,7 +108,24 @@ enter the name:sanjana
 you're right congrats
 
 
+names=['sanjana','teju','priya','riya']
+for name in names:
+    if name == 'priya':
+        break
+    print(name)    
+-----------------------
+sanjana
+teju
 
+names=['sanjana','teju','priya','riya']
+for name in names:
+    if name == 'priya':
+       continue
+    print(name)    
+----------------
+sanjana
+teju
+riya
 
 
 
