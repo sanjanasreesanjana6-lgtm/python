@@ -1,0 +1,98 @@
+name=['merjan','ates','mercan','camel','jon']
+index=0
+for names in name:
+    print(f"{index} for {names}")
+    index +=1    
+---------------
+0 for merjan
+1 for ates
+2 for mercan
+3 for camel
+4 for jon
+// this without the enumerate function
+
+name=['merjan','ates','mercan','camel','jon']
+print(list(enumerate(name)))
+---------------
+[(0, 'merjan'), (1, 'ates'), (2, 'mercan'), (3, 'camel'), (4, 'jon')]
+
+
+name=['merjan','ates','mercan','camel','jon']
+for names in enumerate(name):
+ print(names)
+--------------
+0, 'merjan')
+(1, 'ates')
+(2, 'mercan')
+(3, 'camel')
+(4, 'jon')
+
+name=['merjan','ates','mercan','camel','jon']
+for names in enumerate(name,1):
+ print(names)
+----------------
+(1, 'merjan')
+(2, 'ates')
+(3, 'mercan')
+(4, 'camel')
+(5, 'jon')
+
+name=['merjan','ates','mercan','camel','jon']
+
+for index,names in enumerate(name):
+    print(f"{index} for {names}")
+     
+ --------------
+ 0 for merjan
+1 for ates
+2 for mercan
+3 for camel
+4 for jon
+//this without the index increment by using the enumerate function
+
+name=['merjan','ates','mercan','camel','jon']
+score=[21,54,38,30,23]
+for index,names in enumerate(zip(name,score)):
+    print(f"index {index} for {names} name & score")
+     
+-----------------
+index 0 for ('merjan', 21) name & score
+index 1 for ('ates', 54) name & score
+index 2 for ('mercan', 38) name & score
+index 3 for ('camel', 30) name & score
+index 4 for ('jon', 23) name & score
+
+
+name=['merjan','ates','mercan','camel','jon']
+score=[21,54,38,30,23]
+for index,names in enumerate((zip(name,score)),1):
+    print(f"index {index} for {names} name & score")
+     
+---------------
+index 1 for ('merjan', 21) name & score
+index 2 for ('ates', 54) name & score
+index 3 for ('mercan', 38) name & score
+index 4 for ('camel', 30) name & score
+index 5 for ('jon', 23) name & score
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
