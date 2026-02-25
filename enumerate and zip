@@ -76,10 +76,32 @@ index 4 for ('camel', 30) name & score
 index 5 for ('jon', 23) name & score
 
 
+name=['merjan','ates','mercan','camel','jon']
+score=[21,54,38,30,23]
+age=[21,22,20,21,20]
+for details in zip(name,score,age):
+   print(details)
+    
+------------
+('merjan', 21, 21)
+('ates', 54, 22)
+('mercan', 38, 20)
+('camel', 30, 21)
+('jon', 23, 20)
 
 
-
-
+name=['merjan','ates','mercan','camel','jon']
+score=[21,54,38,30,23]
+age=[21,22,20,21,20]
+for index,names in enumerate((zip(name,score,age)),1):
+    print(f"index {index} for {names} name score & age ")
+     
+---------------
+index 1 for ('merjan', 21, 21) name score & age 
+index 2 for ('ates', 54, 22) name score & age 
+index 3 for ('mercan', 38, 20) name score & age 
+index 4 for ('camel', 30, 21) name score & age 
+index 5 for ('jon', 23, 20) name score & age 
 
 
 
