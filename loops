@@ -1,0 +1,126 @@
+***FOR LOOP****
+
+names=['sanjana','teju','priya','riya']
+for name in names:
+    print(name)
+------------------
+sanjana
+teju
+priya
+riya
+
+
+names=['sanjana','teju','priya','riya']
+salary=[12000,5400,87000,45300]
+age=[16,14,18,19]
+for name in names:
+    for salaries in salary:
+        for ages in age:
+            
+          print(name,salaries,ages)
+---------------------
+sanjana 12000 16
+sanjana 12000 14
+sanjana 12000 18
+sanjana 12000 19
+sanjana 5400 16
+sanjana 5400 14
+sanjana 5400 18
+sanjana 5400 19
+sanjana 87000 16
+sanjana 87000 14
+sanjana 87000 18
+sanjana 87000 19
+sanjana 45300 16
+sanjana 45300 14
+sanjana 45300 18
+sanjana 45300 19
+teju 12000 16
+teju 12000 14
+teju 12000 18
+teju 12000 19
+teju 5400 16
+teju 5400 14
+teju 5400 18
+teju 5400 19
+teju 87000 16
+teju 87000 14
+teju 87000 18
+teju 87000 19
+teju 45300 16
+teju 45300 14
+teju 45300 18
+teju 45300 19
+priya 12000 16
+priya 12000 14
+priya 12000 18
+priya 12000 19
+priya 5400 16
+priya 5400 14
+priya 5400 18
+priya 5400 19
+priya 87000 16
+priya 87000 14
+priya 87000 18
+priya 87000 19
+priya 45300 16
+priya 45300 14
+priya 45300 18
+priya 45300 19
+riya 12000 16
+riya 12000 14
+riya 12000 18
+riya 12000 19
+riya 5400 16
+riya 5400 14
+riya 5400 18
+riya 5400 19
+riya 87000 16
+riya 87000 14
+riya 87000 18
+riya 87000 19
+riya 45300 16
+riya 45300 14
+riya 45300 18
+riya 45300 19
+
+
+
+***WHILE LOOP*****
+
+
+names='sanjana'
+guess=0
+while guess != names:
+    guess=str(input("enter the name:"))
+    if guess != names:
+         print("please try again\n")
+    else:         
+         print("you're right congrats")
+----------------------
+enter the name:priya
+please try again
+
+enter the name:moon
+please try again
+
+enter the name:sanjana
+you're right congrats
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
