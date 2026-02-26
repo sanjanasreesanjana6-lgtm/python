@@ -11,6 +11,10 @@ for names in name:
 4 for jon
 // this without the enumerate function
 
+
+*****ENUMERATE*****
+
+
 name=['merjan','ates','mercan','camel','jon']
 print(list(enumerate(name)))
 ---------------
@@ -49,6 +53,10 @@ for index,names in enumerate(name):
 3 for camel
 4 for jon
 //this without the index increment by using the enumerate function
+
+
+***ZIP()****
+
 
 name=['merjan','ates','mercan','camel','jon']
 score=[21,54,38,30,23]
