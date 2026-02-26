@@ -5,7 +5,7 @@ print(list(developer))
 
 developer = ['sanjana_sree',90,'mn',67]
 print(90 in developer)
--------------------------
+----------------
 True
 
 
@@ -23,12 +23,12 @@ list=['sanjana',5.5,'data analyst']
 name,*rest =list
 print('name:',name)
 print('details:',rest)
-----------------------------
+---------------------
 name: sanjana
 details: [5.5, 'data analyst']
 
 
-TO UDATAE A LIST
+******TO UDATAE A LIST*****
 
 list=['sanjana',5.5,'data analyst']
 list[0]='sanjana_sree'
