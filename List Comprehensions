@@ -1,3 +1,33 @@
+numbers=[]
+for num in range(10):
+    if num % 2==0:
+      numbers.append(num)
+    print(numbers)
+---------------
+[0]
+[0]
+[0, 2]
+[0, 2]
+[0, 2, 4]
+[0, 2, 4]
+[0, 2, 4, 6]
+[0, 2, 4, 6]
+[0, 2, 4, 6, 8]
+[0, 2, 4, 6, 8]
+//in this print condition is actually inside the for loop ,so it is executing every time and incermenting 
+
+
+numbers=[]
+for num in range(10):
+    if num % 2==0:
+      numbers.append(num)
+print(numbers)
+---------------
+[0, 2, 4, 6, 8]
+//here the print function is outside the for loop ,so it ecucutes only once 
+         
+
+
 details=[ (num,'even') if num % 2==0 else (num,'odd') for num in range(10)]
 print(details)
 ---------------------------
