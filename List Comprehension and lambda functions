@@ -34,4 +34,12 @@ print(details)
 [(0, 'even'), (1, 'odd'), (2, 'even'), (3, 'odd'), (4, 'even'), (5, 'odd'), (6, 'even'), (7, 'odd'), (8, 'even'), (9, 'odd')]
 
 
+names=['merjan','camel','ates','sanjana','mercan']
+def check(name):
+ return len(name) > 4
+details=list(filter(check,name))
+print(details)
+-----------------
+['merjan', 'camel', 'sanjana', 'mercan']
+
    
