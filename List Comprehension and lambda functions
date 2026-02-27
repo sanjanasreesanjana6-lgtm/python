@@ -33,6 +33,7 @@ print(details)
 ---------------------------
 [(0, 'even'), (1, 'odd'), (2, 'even'), (3, 'odd'), (4, 'even'), (5, 'odd'), (6, 'even'), (7, 'odd'), (8, 'even'), (9, 'odd')]
 
+***FILTER***
 
 names=['merjan','camel','ates','sanjana','mercan']
 def check(name):
@@ -41,5 +42,50 @@ details=list(filter(check,name))
 print(details)
 -----------------
 ['merjan', 'camel', 'sanjana', 'mercan']
+
+***MAP***
+
+celsius = [0, 10, 20, 30, 40]
+
+def to_fahrenheit(temp):
+    return (temp * 9/5) + 32
+
+fahrenheit = list(map(to_fahrenheit, celsius))
+print(fahrenheit) 
+-------------------------
+[32.0, 50.0, 68.0, 86.0, 104.0]
+
+
+scores=[25,20,21,29,30]
+final_score=sum(scores)
+print(final_score)
+---------------
+125
+
+*****SUM****
+
+scores=[25,20,21,29,30]
+final_score=sum(scores,10)
+print(final_score)
+------------
+135
+
+
+
+scores=[25,20,21,29,30]
+final_score=sum(scores,start=10)
+print(final_score)
+----------------
+135
+//these both works same whether we mention the start or not 
+
+
+
+
+
+
+
+
+
 
    
