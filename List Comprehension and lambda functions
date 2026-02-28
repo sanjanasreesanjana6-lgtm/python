@@ -79,7 +79,12 @@ print(final_score)
 135
 //these both works same whether we mention the start or not 
 
-
+//*** instead of regular for loop condition we can directly use the lanbda function***//
+numbers=range(1,10)
+even_numbers =list(filter(lambda x:x%2==0, numbers))
+print(even_numbers)
+----------------
+[2, 4, 6, 8]
 
 
 
