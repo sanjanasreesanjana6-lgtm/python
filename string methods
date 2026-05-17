@@ -83,7 +83,7 @@ print(convert)//False
 
 name='sanjana sree is studying '
 convert=name.isupper()
-print(convert)//True
+print(convert)//False
 
 **title()
 name='sanjana sree is studying '
