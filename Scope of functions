@@ -35,6 +35,21 @@ sanjana()
 
 
 def sanjana():
+    var='hello everyone'
+    print(var)
+    def teju():
+      non='hi everyone'
+      print(var)
+      print(non)
+    teju()
+sanjana()
+//hello everyone
+hello everyone
+hi everyone//teju function is now called ,but the sanjana code will be executes first then the teju function.
+
+
+
+def sanjana():
    my_var="local scope"
   
    def study():
