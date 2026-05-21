@@ -53,11 +53,41 @@ dict_items([('name', 'sanjana'), ('age', 54), ('height', 5.8), ('hobbies', ['rea
 
 
 
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+san.update({'name':'sanjana_sree','course':'data analyst'})
+
+print(san)
+---------------------
+{'name': 'sanjana_sree', 'age': 54, 'height': 5.8, 'hobbies': ['reading', 'dancing', 'travelling'], 'course': 'data analyst'}
 
 
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+san.popitem()
+print(san)
+-----------
+{'name': 'sanjana', 'age': 54, 'height': 5.8}
 
 
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+san.pop()
+print(san)
+------------
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 2, in <module>
+TypeError: pop expected at least 1 argument, got 0
 
 
-	
-	
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+san.pop('name)
+print(san)
+------------
+{'age': 54, 'height': 5.8, 'hobbies': ['reading', 'dancing', 'travelling']}
+
+
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+san.clear()
+print(san)
+--------------
+{}
+
