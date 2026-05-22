@@ -91,3 +91,72 @@ print(san)
 --------------
 {}
 
+
+*****dictionaries using the loops*******
+
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+for details in san.values():
+ print(details)
+-----------
+sanjana
+54
+5.8
+['reading', 'dancing', 'travelling']
+
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+for details in san.keys():
+ print(details)
+----------
+name
+age
+height
+hobbies
+
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+for details in enumerate(san.keys()):
+ print(details)
+--------------
+(0, 'name')
+(1, 'age')
+(2, 'height')
+(3, 'hobbies')
+
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+for index,details in enumerate(san.items()):
+ print(index,details)
+-------------
+0 ('name', 'sanjana')
+1 ('age', 54)
+2 ('height', 5.8)
+3 ('hobbies', ['reading', 'dancing', 'travelling'])
+
+
+
+san={'name':'sanjana','age':54,"height":5.8,'hobbies':['reading','dancing','travelling']} 
+for index,details in enumerate(san.items(),1):
+ print(index,details)
+----------
+1 ('name', 'sanjana')
+2 ('age', 54)
+3 ('height', 5.8)
+4 ('hobbies', ['reading', 'dancing', 'travelling'])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
