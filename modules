@@ -1,0 +1,44 @@
+import module_name
+
+import math as m
+print(m.sqrt(265))
+--------------
+16.278820596099706
+
+
+from math import radians as r,sin as s,cos as c,tan as t
+degrees=45
+radian=r(degrees)
+sine=s(radian)
+cose=c(radian)
+tan=t(radian)
+print(f"sin = {sine}")
+print(f"cos = {cose}")
+print(f"tan = {tan}")
+------------------
+sin = 0.7071067811865475
+cos = 0.7071067811865476
+tan = 0.9999999999999999
+
+
+from math import*
+print(sqrt(500))
+print(pow(3,2))
+print(sin(90))
+------------
+22.360679774997898
+9.0
+0.8939966636005579
+//used to import all the elements in the module using the * with out manually typing them
+
+
+import datetime
+birthday_date=datetime.date(1854,6,11)
+print(birthday_date.day)
+print(birthday_date.month)
+print(birthday_date.year)
+-----------------
+11
+6
+1854
+
