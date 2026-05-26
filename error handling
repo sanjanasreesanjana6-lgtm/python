@@ -1,0 +1,76 @@
+ERRORS:errors are of 5 types 
+
+1.syntax error:
+name='sanjana'
+print(name
+----------------
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 2
+    print(name
+         ^
+SyntaxError: '(' was never closed
+
+name='sanjana'
+print(list.[name])
+-------------
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 2
+    print(list.[name])
+               ^
+SyntaxError: invalid syntax
+
+
+2.index error:occurs when out of range or element not found
+name=['s','a','n',23,56]
+print(name[6])
+-----------------
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 2, in <module>
+IndexError: list index out of range
+
+3.type error:occurs when we try to perform the operation on in incompatible data types.
+name='san'
+age=56
+result=name+age
+print(result)
+--------------
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 3, in <module>
+TypeError: can only concatenate str (not "int") to str
+
+4.attribute error:occurs when you try to use a method or property that doesn't exist for that data type.
+
+name=56
+print(name.append('san'))
+--------------
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 2, in <module>
+AttributeError: 'int' object has no attribute 'append'
+
+5.name error:occurs when variable is not defined or not found.
+name=56
+print(append.name('san'))
+---------------
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 2, in <module>
+NameError: name 'append' is not defined
+
+
+
+
+
+
+
+
+
+
+
+
+
+
