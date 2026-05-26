@@ -1,4 +1,15 @@
 try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+finally:
+    print("execution is done")
+---------------------
+You can't divide by zero!
+execution is done
+
+
+try:
     number=int('abc')
     digit=10/number
 except ValueError:
@@ -23,6 +34,21 @@ for attempt in range(5):
     break 
  print()    
 print("you're out of chances") 
+
+try:
+    number = int(input('Enter a number: '))
+    result = 10 / number
+except (ValueError, ZeroDivisionError) as e:
+    print(f'Error occurred: {e}')
+else:
+    print("result:",result)
+---------------------
+Enter a number: 78
+result: 0.1282051282051282
+-------------------
+Enter a number: jack
+Error occurred: invalid literal for int() with base 10: 'jack'
+
 
 
 ********NAME GUESSING CODE*******
