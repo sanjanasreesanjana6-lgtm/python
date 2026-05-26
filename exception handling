@@ -1,0 +1,74 @@
+try:
+    number=int('abc')
+    digit=10/number
+except ValueError:
+    print("the value is not defined correctly")
+except ZeroDivisionError:
+    print("canot divide a num with string")
+finally:
+    print("respone given")
+-------------------------
+the value is not defined correctly
+respone given
+
+
+for attempt in range(5):
+ try:
+    number = int(input('Enter a number: '))
+    result =  number /10
+ except (ValueError, ZeroDivisionError) as e:
+    print(f'Error occurred: {e}')
+ else:    
+    print("result:",result)
+    break 
+ print()    
+print("you're out of chances") 
+
+
+********NAME GUESSING CODE*******
+for attempt in range(5): //when u have reached the range then it will not allow you to execute 
+    try:
+        name = input('guess the name: ')   
+        result = name
+        if result == 'sanjana':
+            print("you're correct congrats!")
+            print()
+            break     //when the guess is correct code stops execution,whether you reached the range or not it doesn't care.
+        else:
+            print("you're wrong try again!")
+    except Exception as e:
+        print(f'Error occurred: {e}')
+    
+    print()  
+print("you're out of chances")//when out of range this will be printed 
+-------------------------
+guess the name: harry
+you're wrong try again!
+
+guess the name: san
+you're wrong try again!
+
+guess the name: frog
+you're wrong try again!
+
+guess the name: chinnu
+you're wrong try again!
+
+guess the name: sanjana
+you're correct congrats!
+
+you're out of chances
+-----------------------------
+guess the name: mam
+you're wrong try again!
+
+guess the name: sanjana
+you're correct congrats!
+
+you're out of chances
+
+=== Code Execution Successful ===
+
+
+
+
