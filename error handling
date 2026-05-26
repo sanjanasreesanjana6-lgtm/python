@@ -62,11 +62,54 @@ Traceback (most recent call last):
 NameError: name 'append' is not defined
 
 
+Debugging Techniques::
+print/f-string:to check the flow of the code
+pdb-python debugger:pdb.set_trace()
+is used to trace as following 
 
+import pdb
 
+def divide(a, b):
+    pdb.set_trace()
+    return a / b
 
+print(divide(10, 2))
+-------------------------
+/tmp/ipykernel_642/410373905.py(5)divide()
+      3 def divide(a, b):
+      4     pdb.set_trace()
+----> 5     return a / b
+      6 
+      7 print(divide(10, 2))
 
+ipdb> help
 
+Documented commands (type help <topic>):
+========================================
+EOF    commands   enable    ll        pp       s                until 
+a      condition  exit      longlist  psource  skip_hidden      up    
+alias  cont       h         n         q        skip_predicates  w     
+args   context    help      next      quit     source           whatis
+b      continue   ignore    p         r        step             where 
+break  d          interact  pdef      restart  tbreak         
+bt     debug      j         pdoc      return   u              
+c      disable    jump      pfile     retval   unalias        
+cl     display    l         pinfo     run      undisplay      
+clear  down       list      pinfo2    rv       unt            
+
+Miscellaneous help topics:
+==========================
+exec  pdb
+
+ipdb> whatis a
+<class 'int'>
+ipdb> whatis
+*** SyntaxError: invalid syntax
+ipdb> cont
+5.0
+
+IDE-integrated development environment:many break points  step execution, and variable inspection.
+are used for debugging 
 
 
 
