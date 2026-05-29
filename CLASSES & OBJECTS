@@ -1,1 +1,13 @@
 CLASS:class is the blue print of objects 
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        name='sanjana'   
+    def bark(self):
+        print(f"{self.name.upper()} says woof woof!")
+dog_1=Dog('jack',6)
+
+dog_1.bark()
+-----------------------------
+JACK says woof woof!
