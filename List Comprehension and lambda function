@@ -17,6 +17,7 @@ for num in range(10):
 //in this print condition is actually inside the for loop ,so it is executing every time and incermenting 
 
 
+
 numbers=[]
 for num in range(10):
     if num % 2==0:
