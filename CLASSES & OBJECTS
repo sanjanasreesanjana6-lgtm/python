@@ -1,4 +1,3 @@
-
 CLASS:class is the blue print of objects 
 class Dog:
     def __init__(self, name, age):
